@@ -1,5 +1,5 @@
 """
-src.build
+src.builder
 
 Circuit building and assembly.
 
@@ -7,7 +7,7 @@ Constructs the final distributed circuit by mapping logical qubits to physical
 indices and inserting teleportation/remote-gate placeholders.
 
 Public API:
-- assemble_circuit: Build a distributed circuit from partition and DAG.
+- assemble_circuit: Build a distributed circuit from partition and DAG (returns circuit and network map).
 - update_maps: Compute logical→QPU and logical→physical mappings.
 """
 

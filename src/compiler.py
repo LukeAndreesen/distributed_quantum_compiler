@@ -16,13 +16,17 @@ from qiskit import QuantumCircuit
 from qiskit.converters import circuit_to_dag
 
 from .analysis import confirm_candidate_validity
-from .build import assemble_circuit
+from .builder import assemble_circuit
 from .frontend import load_qasm3_file
 from .ir import build_graph_from_dag
 from .optimization import partition_graph
 
 
-def compile(qasm_path: str | Path, qpu_size: int = 5, **kwargs: Any) -> QuantumCircuit:
+def compile(
+    qasm_path: str | Path,
+    qpu_size: int = 5,
+    **kwargs: Any,
+) -> tuple[QuantumCircuit, Any]:
     """Compile a QASM circuit for distributed execution across multiple QPUs.
 
     This function runs the complete compilation pipeline:
@@ -45,8 +49,10 @@ def compile(qasm_path: str | Path, qpu_size: int = 5, **kwargs: Any) -> QuantumC
             - verbose: Print progress (default: False)
 
     Returns:
-        Compiled Qiskit QuantumCircuit with teleportation and remote gate
-        placeholders inserted.
+        Tuple[QuantumCircuit, Any]: A pair ``(circuit, network_map)`` where
+        ``circuit`` is the compiled Qiskit QuantumCircuit with teleportation
+        and remote gate placeholders, and ``network_map`` captures per-layer
+        logical→QPU and logical→physical assignments (format subject to change).
 
     Raises:
         ValueError: If the final partition is invalid.

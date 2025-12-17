@@ -8,10 +8,12 @@ A quantum circuit compiler that optimizes qubit placement across multiple QPUs.
 from src import compile
 
 # Compile a QASM circuit
-compiled_circuit = compile("tests/circuits/test0.qasm", qpu_size=5)
+compiled_circuit, network_map = compile("tests/circuits/test0.qasm", qpu_size=5)
 
 # The returned circuit includes teleportation and remote gate placeholders
 print(compiled_circuit)
+# The network_map describes per-layer logical→QPU and logical→physical assignment
+print(network_map)
 ```
 
 ### With Custom Parameters
@@ -19,7 +21,7 @@ print(compiled_circuit)
 ```python
 from src import compile
 
-compiled_circuit = compile(
+compiled_circuit, network_map = compile(
     "circuit.qasm",
     qpu_size=5,
     population_size=100,

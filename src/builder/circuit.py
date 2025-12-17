@@ -1,10 +1,13 @@
 """
-src.build.circuit
+src.builder.circuit
 
 Circuit assembly and qubit mapping.
 
 Provides utilities to map logical qubits to physical qubits according to a
 partition schedule, and assemble the final distributed circuit with placeholders.
+
+Note: The assembler returns both the compiled circuit and a network map that
+describes the per-layer logical→QPU and logical→physical assignments.
 """
 
 from __future__ import annotations
@@ -14,6 +17,24 @@ from qiskit.circuit import Parameter
 from collections import Counter
 
 from ..gates.placeholders import TeleportPlaceholder, RemoteGatePlaceholder
+
+def build_network_map(num_qubits, qpu_size):
+    """Build a network map of QPUs and their qubits.
+
+    Args:
+        num_qubits: Total number of qubits in the circuit.
+        qpu_size: Number of qubits per QPU.
+    Returns:
+        A dictionary mapping QPU ids to lists of their physical qubit indices.
+    """
+    network_map = {}
+    num_qpus = (num_qubits + qpu_size - 1) // qpu_size  # Ceiling division
+    for qpu_id in range(num_qpus):
+        start_index = qpu_id * qpu_size
+        end_index = min(start_index + qpu_size, num_qubits)
+        network_map[f"QPU {qpu_id}"] = list(range(start_index, end_index))
+    return network_map
+    
 
 def update_maps(partition, layer_num, qpu_size):
     """Compute logical-to-QPU and logical-to-physical mappings for a layer.
@@ -59,7 +80,10 @@ def assemble_circuit(partition, dag, qpu_size):
         qpu_size: Number of qubits per QPU.
 
     Returns:
-        Qiskit QuantumCircuit with placeholders inserted.
+        Tuple[QuantumCircuit, Any]: A pair ``(circuit, network_map)`` where
+        ``circuit`` is the compiled Qiskit QuantumCircuit with placeholders,
+        and ``network_map`` captures per-layer logical→QPU and logical→physical
+        assignments (format subject to change).
     """
 
     t = Parameter("destination_qpu")  
@@ -102,5 +126,6 @@ def assemble_circuit(partition, dag, qpu_size):
                 next_physical = next_logical_to_physical[qubit]
                 if current_qpu != next_qpu:
                     qc.append(TeleportPlaceholder(f"qpu{next_qpu}:q{next_physical}"), [current_physical])
-    
-    return qc
+
+    network_map = build_network_map(num_qubits, qpu_size)
+    return qc, network_map

@@ -21,8 +21,9 @@ from pathlib import Path
 from typing import Dict, List, Sequence, Tuple
 
 import numpy as np
+from qiskit.converters import circuit_to_dag
 
-from playground import build_graph_from_dag, load_qasm3_file, partition_graph
+from src import build_graph_from_dag, load_qasm3_file, partition_graph
 
 
 @dataclass
@@ -55,7 +56,8 @@ def discover_test_files(root: Path) -> List[Path]:
 
 
 def evaluate_one(qasm_path: Path, base_params: Dict, seed: int) -> Tuple[float, float]:
-    dag = load_qasm3_file(qasm_path)
+    qc = load_qasm3_file(qasm_path)
+    dag = circuit_to_dag(qc)
     graph, depth = build_graph_from_dag(dag)
     params = dict(base_params)
     params["seed"] = seed

@@ -1,0 +1,2884 @@
+{
+  "results": [
+    {
+      "params": {
+        "qpu_size": 3,
+        "population_size": 300,
+        "num_gens": 120,
+        "seed": 42,
+        "temperature": 0.7109776991423647,
+        "mutation_probability": 0.5996852868054147,
+        "mutation_iterations": 150,
+        "verbose": false
+      },
+      "mean_initial": 151.66666666666666,
+      "mean_final": 49.583333333333336,
+      "mean_improvement": 0.673076923076923,
+      "total_seconds": 328.6799969999993,
+      "per_file": {
+        "test2.qasm": {
+          "initial_mean": 140.0,
+          "final_mean": 27.5,
+          "improvement": 0.8035714285714286
+        },
+        "test3.qasm": {
+          "initial_mean": 165.0,
+          "final_mean": 47.0,
+          "improvement": 0.7151515151515152
+        },
+        "test4.qasm": {
+          "initial_mean": 130.0,
+          "final_mean": 94.0,
+          "improvement": 0.27692307692307694
+        },
+        "test5.qasm": {
+          "initial_mean": 150.0,
+          "final_mean": 54.5,
+          "improvement": 0.6366666666666667
+        },
+        "test6.qasm": {
+          "initial_mean": 125.0,
+          "final_mean": 25.5,
+          "improvement": 0.796
+        },
+        "test7.qasm": {
+          "initial_mean": 200.0,
+          "final_mean": 49.0,
+          "improvement": 0.755
+        }
+      }
+    },
+    {
+      "params": {
+        "qpu_size": 3,
+        "population_size": 100,
+        "num_gens": 80,
+        "seed": 42,
+        "temperature": 0.28869932624122957,
+        "mutation_probability": 0.7527289774409811,
+        "mutation_iterations": 60,
+        "verbose": false
+      },
+      "mean_initial": 160.0,
+      "mean_final": 51.25,
+      "mean_improvement": 0.6796875,
+      "total_seconds": 39.68535758400685,
+      "per_file": {
+        "test2.qasm": {
+          "initial_mean": 145.0,
+          "final_mean": 28.5,
+          "improvement": 0.803448275862069
+        },
+        "test3.qasm": {
+          "initial_mean": 175.0,
+          "final_mean": 51.0,
+          "improvement": 0.7085714285714285
+        },
+        "test4.qasm": {
+          "initial_mean": 150.0,
+          "final_mean": 95.5,
+          "improvement": 0.36333333333333334
+        },
+        "test5.qasm": {
+          "initial_mean": 150.0,
+          "final_mean": 50.0,
+          "improvement": 0.6666666666666666
+        },
+        "test6.qasm": {
+          "initial_mean": 135.0,
+          "final_mean": 36.5,
+          "improvement": 0.7296296296296296
+        },
+        "test7.qasm": {
+          "initial_mean": 205.0,
+          "final_mean": 46.0,
+          "improvement": 0.775609756097561
+        }
+      }
+    },
+    {
+      "params": {
+        "qpu_size": 3,
+        "population_size": 200,
+        "num_gens": 150,
+        "seed": 42,
+        "temperature": 0.17617131760715665,
+        "mutation_probability": 0.6593943432322222,
+        "mutation_iterations": 60,
+        "verbose": false
+      },
+      "mean_initial": 154.16666666666666,
+      "mean_final": 51.916666666666664,
+      "mean_improvement": 0.6632432432432432,
+      "total_seconds": 140.82329816599668,
+      "per_file": {
+        "test2.qasm": {
+          "initial_mean": 140.0,
+          "final_mean": 27.0,
+          "improvement": 0.8071428571428572
+        },
+        "test3.qasm": {
+          "initial_mean": 165.0,
+          "final_mean": 50.5,
+          "improvement": 0.693939393939394
+        },
+        "test4.qasm": {
+          "initial_mean": 135.0,
+          "final_mean": 94.0,
+          "improvement": 0.3037037037037037
+        },
+        "test5.qasm": {
+          "initial_mean": 150.0,
+          "final_mean": 48.0,
+          "improvement": 0.68
+        },
+        "test6.qasm": {
+          "initial_mean": 135.0,
+          "final_mean": 40.0,
+          "improvement": 0.7037037037037037
+        },
+        "test7.qasm": {
+          "initial_mean": 200.0,
+          "final_mean": 52.0,
+          "improvement": 0.74
+        }
+      }
+    },
+    {
+      "params": {
+        "qpu_size": 3,
+        "population_size": 50,
+        "num_gens": 100,
+        "seed": 42,
+        "temperature": 0.9649952058273716,
+        "mutation_probability": 0.4791173378384751,
+        "mutation_iterations": 20,
+        "verbose": false
+      },
+      "mean_initial": 167.5,
+      "mean_final": 53.5,
+      "mean_improvement": 0.6805970149253732,
+      "total_seconds": 9.604214416001923,
+      "per_file": {
+        "test2.qasm": {
+          "initial_mean": 150.0,
+          "final_mean": 31.0,
+          "improvement": 0.7933333333333333
+        },
+        "test3.qasm": {
+          "initial_mean": 175.0,
+          "final_mean": 52.0,
+          "improvement": 0.7028571428571428
+        },
+        "test4.qasm": {
+          "initial_mean": 175.0,
+          "final_mean": 102.5,
+          "improvement": 0.4142857142857143
+        },
+        "test5.qasm": {
+          "initial_mean": 150.0,
+          "final_mean": 49.5,
+          "improvement": 0.67
+        },
+        "test6.qasm": {
+          "initial_mean": 150.0,
+          "final_mean": 37.5,
+          "improvement": 0.75
+        },
+        "test7.qasm": {
+          "initial_mean": 205.0,
+          "final_mean": 48.5,
+          "improvement": 0.7634146341463415
+        }
+      }
+    },
+    {
+      "params": {
+        "qpu_size": 3,
+        "population_size": 300,
+        "num_gens": 150,
+        "seed": 42,
+        "temperature": 0.6334999342960567,
+        "mutation_probability": 0.8218317879923527,
+        "mutation_iterations": 80,
+        "verbose": false
+      },
+      "mean_initial": 151.66666666666666,
+      "mean_final": 47.916666666666664,
+      "mean_improvement": 0.6840659340659341,
+      "total_seconds": 319.6637909169949,
+      "per_file": {
+        "test2.qasm": {
+          "initial_mean": 140.0,
+          "final_mean": 24.0,
+          "improvement": 0.8285714285714286
+        },
+        "test3.qasm": {
+          "initial_mean": 165.0,
+          "final_mean": 49.0,
+          "improvement": 0.703030303030303
+        },
+        "test4.qasm": {
+          "initial_mean": 130.0,
+          "final_mean": 94.0,
+          "improvement": 0.27692307692307694
+        },
+        "test5.qasm": {
+          "initial_mean": 150.0,
+          "final_mean": 50.0,
+          "improvement": 0.6666666666666666
+        },
+        "test6.qasm": {
+          "initial_mean": 125.0,
+          "final_mean": 25.0,
+          "improvement": 0.8
+        },
+        "test7.qasm": {
+          "initial_mean": 200.0,
+          "final_mean": 45.5,
+          "improvement": 0.7725
+        }
+      }
+    },
+    {
+      "params": {
+        "qpu_size": 3,
+        "population_size": 400,
+        "num_gens": 80,
+        "seed": 42,
+        "temperature": 0.6258909319078111,
+        "mutation_probability": 0.7827545728327241,
+        "mutation_iterations": 100,
+        "verbose": false
+      },
+      "mean_initial": 150.83333333333334,
+      "mean_final": 48.333333333333336,
+      "mean_improvement": 0.6795580110497237,
+      "total_seconds": 264.2702603749931,
+      "per_file": {
+        "test2.qasm": {
+          "initial_mean": 140.0,
+          "final_mean": 28.0,
+          "improvement": 0.8
+        },
+        "test3.qasm": {
+          "initial_mean": 160.0,
+          "final_mean": 47.5,
+          "improvement": 0.703125
+        },
+        "test4.qasm": {
+          "initial_mean": 130.0,
+          "final_mean": 94.0,
+          "improvement": 0.27692307692307694
+        },
+        "test5.qasm": {
+          "initial_mean": 150.0,
+          "final_mean": 51.0,
+          "improvement": 0.66
+        },
+        "test6.qasm": {
+          "initial_mean": 125.0,
+          "final_mean": 24.0,
+          "improvement": 0.808
+        },
+        "test7.qasm": {
+          "initial_mean": 200.0,
+          "final_mean": 45.5,
+          "improvement": 0.7725
+        }
+      }
+    },
+    {
+      "params": {
+        "qpu_size": 3,
+        "population_size": 50,
+        "num_gens": 100,
+        "seed": 42,
+        "temperature": 0.19754074604595953,
+        "mutation_probability": 0.31985219759497174,
+        "mutation_iterations": 200,
+        "verbose": false
+      },
+      "mean_initial": 167.5,
+      "mean_final": 53.833333333333336,
+      "mean_improvement": 0.6786069651741293,
+      "total_seconds": 29.45080799999414,
+      "per_file": {
+        "test2.qasm": {
+          "initial_mean": 150.0,
+          "final_mean": 33.5,
+          "improvement": 0.7766666666666666
+        },
+        "test3.qasm": {
+          "initial_mean": 175.0,
+          "final_mean": 53.0,
+          "improvement": 0.6971428571428572
+        },
+        "test4.qasm": {
+          "initial_mean": 175.0,
+          "final_mean": 98.5,
+          "improvement": 0.43714285714285717
+        },
+        "test5.qasm": {
+          "initial_mean": 150.0,
+          "final_mean": 54.5,
+          "improvement": 0.6366666666666667
+        },
+        "test6.qasm": {
+          "initial_mean": 150.0,
+          "final_mean": 37.0,
+          "improvement": 0.7533333333333333
+        },
+        "test7.qasm": {
+          "initial_mean": 205.0,
+          "final_mean": 46.5,
+          "improvement": 0.7731707317073171
+        }
+      }
+    },
+    {
+      "params": {
+        "qpu_size": 3,
+        "population_size": 150,
+        "num_gens": 150,
+        "seed": 42,
+        "temperature": 0.6739840909303894,
+        "mutation_probability": 0.8405699984968789,
+        "mutation_iterations": 80,
+        "verbose": false
+      },
+      "mean_initial": 155.0,
+      "mean_final": 49.416666666666664,
+      "mean_improvement": 0.6811827956989248,
+      "total_seconds": 156.05596541700652,
+      "per_file": {
+        "test2.qasm": {
+          "initial_mean": 145.0,
+          "final_mean": 26.5,
+          "improvement": 0.8172413793103448
+        },
+        "test3.qasm": {
+          "initial_mean": 165.0,
+          "final_mean": 49.0,
+          "improvement": 0.703030303030303
+        },
+        "test4.qasm": {
+          "initial_mean": 135.0,
+          "final_mean": 94.0,
+          "improvement": 0.3037037037037037
+        },
+        "test5.qasm": {
+          "initial_mean": 150.0,
+          "final_mean": 46.5,
+          "improvement": 0.69
+        },
+        "test6.qasm": {
+          "initial_mean": 135.0,
+          "final_mean": 35.0,
+          "improvement": 0.7407407407407407
+        },
+        "test7.qasm": {
+          "initial_mean": 200.0,
+          "final_mean": 45.5,
+          "improvement": 0.7725
+        }
+      }
+    },
+    {
+      "params": {
+        "qpu_size": 3,
+        "population_size": 300,
+        "num_gens": 80,
+        "seed": 42,
+        "temperature": 0.9221237306654527,
+        "mutation_probability": 0.5834302808874114,
+        "mutation_iterations": 150,
+        "verbose": false
+      },
+      "mean_initial": 151.66666666666666,
+      "mean_final": 49.833333333333336,
+      "mean_improvement": 0.6714285714285714,
+      "total_seconds": 215.1177848340012,
+      "per_file": {
+        "test2.qasm": {
+          "initial_mean": 140.0,
+          "final_mean": 26.0,
+          "improvement": 0.8142857142857143
+        },
+        "test3.qasm": {
+          "initial_mean": 165.0,
+          "final_mean": 49.0,
+          "improvement": 0.703030303030303
+        },
+        "test4.qasm": {
+          "initial_mean": 130.0,
+          "final_mean": 94.0,
+          "improvement": 0.27692307692307694
+        },
+        "test5.qasm": {
+          "initial_mean": 150.0,
+          "final_mean": 53.0,
+          "improvement": 0.6466666666666666
+        },
+        "test6.qasm": {
+          "initial_mean": 125.0,
+          "final_mean": 26.5,
+          "improvement": 0.788
+        },
+        "test7.qasm": {
+          "initial_mean": 200.0,
+          "final_mean": 50.5,
+          "improvement": 0.7475
+        }
+      }
+    },
+    {
+      "params": {
+        "qpu_size": 3,
+        "population_size": 300,
+        "num_gens": 120,
+        "seed": 42,
+        "temperature": 1.4579199780818262,
+        "mutation_probability": 0.7414536999964436,
+        "mutation_iterations": 20,
+        "verbose": false
+      },
+      "mean_initial": 151.66666666666666,
+      "mean_final": 48.583333333333336,
+      "mean_improvement": 0.6796703296703296,
+      "total_seconds": 92.17871216699132,
+      "per_file": {
+        "test2.qasm": {
+          "initial_mean": 140.0,
+          "final_mean": 25.5,
+          "improvement": 0.8178571428571428
+        },
+        "test3.qasm": {
+          "initial_mean": 165.0,
+          "final_mean": 50.0,
+          "improvement": 0.696969696969697
+        },
+        "test4.qasm": {
+          "initial_mean": 130.0,
+          "final_mean": 95.0,
+          "improvement": 0.2692307692307692
+        },
+        "test5.qasm": {
+          "initial_mean": 150.0,
+          "final_mean": 46.0,
+          "improvement": 0.6933333333333334
+        },
+        "test6.qasm": {
+          "initial_mean": 125.0,
+          "final_mean": 29.0,
+          "improvement": 0.768
+        },
+        "test7.qasm": {
+          "initial_mean": 200.0,
+          "final_mean": 46.0,
+          "improvement": 0.77
+        }
+      }
+    },
+    {
+      "params": {
+        "qpu_size": 3,
+        "population_size": 200,
+        "num_gens": 150,
+        "seed": 42,
+        "temperature": 1.2085563856986066,
+        "mutation_probability": 0.23768245706647048,
+        "mutation_iterations": 20,
+        "verbose": false
+      },
+      "mean_initial": 154.16666666666666,
+      "mean_final": 52.583333333333336,
+      "mean_improvement": 0.6589189189189189,
+      "total_seconds": 48.932091291993856,
+      "per_file": {
+        "test2.qasm": {
+          "initial_mean": 140.0,
+          "final_mean": 27.0,
+          "improvement": 0.8071428571428572
+        },
+        "test3.qasm": {
+          "initial_mean": 165.0,
+          "final_mean": 56.0,
+          "improvement": 0.6606060606060606
+        },
+        "test4.qasm": {
+          "initial_mean": 135.0,
+          "final_mean": 98.0,
+          "improvement": 0.2740740740740741
+        },
+        "test5.qasm": {
+          "initial_mean": 150.0,
+          "final_mean": 52.0,
+          "improvement": 0.6533333333333333
+        },
+        "test6.qasm": {
+          "initial_mean": 135.0,
+          "final_mean": 35.5,
+          "improvement": 0.737037037037037
+        },
+        "test7.qasm": {
+          "initial_mean": 200.0,
+          "final_mean": 47.0,
+          "improvement": 0.765
+        }
+      }
+    },
+    {
+      "params": {
+        "qpu_size": 3,
+        "population_size": 400,
+        "num_gens": 50,
+        "seed": 42,
+        "temperature": 0.17235602188915056,
+        "mutation_probability": 0.39944808436633894,
+        "mutation_iterations": 80,
+        "verbose": false
+      },
+      "mean_initial": 150.83333333333334,
+      "mean_final": 48.583333333333336,
+      "mean_improvement": 0.6779005524861879,
+      "total_seconds": 82.4338109579985,
+      "per_file": {
+        "test2.qasm": {
+          "initial_mean": 140.0,
+          "final_mean": 26.0,
+          "improvement": 0.8142857142857143
+        },
+        "test3.qasm": {
+          "initial_mean": 160.0,
+          "final_mean": 47.0,
+          "improvement": 0.70625
+        },
+        "test4.qasm": {
+          "initial_mean": 130.0,
+          "final_mean": 95.0,
+          "improvement": 0.2692307692307692
+        },
+        "test5.qasm": {
+          "initial_mean": 150.0,
+          "final_mean": 48.5,
+          "improvement": 0.6766666666666666
+        },
+        "test6.qasm": {
+          "initial_mean": 125.0,
+          "final_mean": 29.5,
+          "improvement": 0.764
+        },
+        "test7.qasm": {
+          "initial_mean": 200.0,
+          "final_mean": 45.5,
+          "improvement": 0.7725
+        }
+      }
+    },
+    {
+      "params": {
+        "qpu_size": 3,
+        "population_size": 400,
+        "num_gens": 120,
+        "seed": 42,
+        "temperature": 0.23830847689499413,
+        "mutation_probability": 0.7567852002069957,
+        "mutation_iterations": 100,
+        "verbose": false
+      },
+      "mean_initial": 150.83333333333334,
+      "mean_final": 48.416666666666664,
+      "mean_improvement": 0.6790055248618785,
+      "total_seconds": 385.01938399999926,
+      "per_file": {
+        "test2.qasm": {
+          "initial_mean": 140.0,
+          "final_mean": 27.5,
+          "improvement": 0.8035714285714286
+        },
+        "test3.qasm": {
+          "initial_mean": 160.0,
+          "final_mean": 49.0,
+          "improvement": 0.69375
+        },
+        "test4.qasm": {
+          "initial_mean": 130.0,
+          "final_mean": 94.0,
+          "improvement": 0.27692307692307694
+        },
+        "test5.qasm": {
+          "initial_mean": 150.0,
+          "final_mean": 50.0,
+          "improvement": 0.6666666666666666
+        },
+        "test6.qasm": {
+          "initial_mean": 125.0,
+          "final_mean": 25.5,
+          "improvement": 0.796
+        },
+        "test7.qasm": {
+          "initial_mean": 200.0,
+          "final_mean": 44.5,
+          "improvement": 0.7775
+        }
+      }
+    },
+    {
+      "params": {
+        "qpu_size": 3,
+        "population_size": 150,
+        "num_gens": 100,
+        "seed": 42,
+        "temperature": 0.485881864669253,
+        "mutation_probability": 0.36016371536796143,
+        "mutation_iterations": 20,
+        "verbose": false
+      },
+      "mean_initial": 155.0,
+      "mean_final": 51.333333333333336,
+      "mean_improvement": 0.6688172043010752,
+      "total_seconds": 27.624373416998424,
+      "per_file": {
+        "test2.qasm": {
+          "initial_mean": 145.0,
+          "final_mean": 30.0,
+          "improvement": 0.7931034482758621
+        },
+        "test3.qasm": {
+          "initial_mean": 165.0,
+          "final_mean": 48.5,
+          "improvement": 0.706060606060606
+        },
+        "test4.qasm": {
+          "initial_mean": 135.0,
+          "final_mean": 97.0,
+          "improvement": 0.2814814814814815
+        },
+        "test5.qasm": {
+          "initial_mean": 150.0,
+          "final_mean": 49.5,
+          "improvement": 0.67
+        },
+        "test6.qasm": {
+          "initial_mean": 135.0,
+          "final_mean": 39.0,
+          "improvement": 0.7111111111111111
+        },
+        "test7.qasm": {
+          "initial_mean": 200.0,
+          "final_mean": 44.0,
+          "improvement": 0.78
+        }
+      }
+    },
+    {
+      "params": {
+        "qpu_size": 3,
+        "population_size": 300,
+        "num_gens": 150,
+        "seed": 42,
+        "temperature": 0.5955360058092439,
+        "mutation_probability": 0.7939008692203979,
+        "mutation_iterations": 40,
+        "verbose": false
+      },
+      "mean_initial": 151.66666666666666,
+      "mean_final": 49.166666666666664,
+      "mean_improvement": 0.6758241758241759,
+      "total_seconds": 181.9282336670003,
+      "per_file": {
+        "test2.qasm": {
+          "initial_mean": 140.0,
+          "final_mean": 28.0,
+          "improvement": 0.8
+        },
+        "test3.qasm": {
+          "initial_mean": 165.0,
+          "final_mean": 48.0,
+          "improvement": 0.7090909090909091
+        },
+        "test4.qasm": {
+          "initial_mean": 130.0,
+          "final_mean": 95.0,
+          "improvement": 0.2692307692307692
+        },
+        "test5.qasm": {
+          "initial_mean": 150.0,
+          "final_mean": 48.5,
+          "improvement": 0.6766666666666666
+        },
+        "test6.qasm": {
+          "initial_mean": 125.0,
+          "final_mean": 27.0,
+          "improvement": 0.784
+        },
+        "test7.qasm": {
+          "initial_mean": 200.0,
+          "final_mean": 48.5,
+          "improvement": 0.7575
+        }
+      }
+    },
+    {
+      "params": {
+        "qpu_size": 3,
+        "population_size": 300,
+        "num_gens": 50,
+        "seed": 42,
+        "temperature": 0.4314107535734299,
+        "mutation_probability": 0.569913669150257,
+        "mutation_iterations": 200,
+        "verbose": false
+      },
+      "mean_initial": 151.66666666666666,
+      "mean_final": 49.083333333333336,
+      "mean_improvement": 0.6763736263736263,
+      "total_seconds": 168.7697952919989,
+      "per_file": {
+        "test2.qasm": {
+          "initial_mean": 140.0,
+          "final_mean": 27.5,
+          "improvement": 0.8035714285714286
+        },
+        "test3.qasm": {
+          "initial_mean": 165.0,
+          "final_mean": 56.5,
+          "improvement": 0.6575757575757576
+        },
+        "test4.qasm": {
+          "initial_mean": 130.0,
+          "final_mean": 94.0,
+          "improvement": 0.27692307692307694
+        },
+        "test5.qasm": {
+          "initial_mean": 150.0,
+          "final_mean": 50.0,
+          "improvement": 0.6666666666666666
+        },
+        "test6.qasm": {
+          "initial_mean": 125.0,
+          "final_mean": 23.5,
+          "improvement": 0.812
+        },
+        "test7.qasm": {
+          "initial_mean": 200.0,
+          "final_mean": 43.0,
+          "improvement": 0.785
+        }
+      }
+    },
+    {
+      "params": {
+        "qpu_size": 3,
+        "population_size": 400,
+        "num_gens": 30,
+        "seed": 42,
+        "temperature": 0.7863875056406421,
+        "mutation_probability": 0.6925475598540096,
+        "mutation_iterations": 100,
+        "verbose": false
+      },
+      "mean_initial": 150.83333333333334,
+      "mean_final": 46.916666666666664,
+      "mean_improvement": 0.688950276243094,
+      "total_seconds": 89.52390595900943,
+      "per_file": {
+        "test2.qasm": {
+          "initial_mean": 140.0,
+          "final_mean": 26.0,
+          "improvement": 0.8142857142857143
+        },
+        "test3.qasm": {
+          "initial_mean": 160.0,
+          "final_mean": 47.5,
+          "improvement": 0.703125
+        },
+        "test4.qasm": {
+          "initial_mean": 130.0,
+          "final_mean": 94.0,
+          "improvement": 0.27692307692307694
+        },
+        "test5.qasm": {
+          "initial_mean": 150.0,
+          "final_mean": 44.5,
+          "improvement": 0.7033333333333334
+        },
+        "test6.qasm": {
+          "initial_mean": 125.0,
+          "final_mean": 24.0,
+          "improvement": 0.808
+        },
+        "test7.qasm": {
+          "initial_mean": 200.0,
+          "final_mean": 45.5,
+          "improvement": 0.7725
+        }
+      }
+    },
+    {
+      "params": {
+        "qpu_size": 3,
+        "population_size": 200,
+        "num_gens": 30,
+        "seed": 42,
+        "temperature": 0.9246701618191232,
+        "mutation_probability": 0.5413111357363243,
+        "mutation_iterations": 200,
+        "verbose": false
+      },
+      "mean_initial": 154.16666666666666,
+      "mean_final": 49.666666666666664,
+      "mean_improvement": 0.6778378378378379,
+      "total_seconds": 64.20110441699217,
+      "per_file": {
+        "test2.qasm": {
+          "initial_mean": 140.0,
+          "final_mean": 26.0,
+          "improvement": 0.8142857142857143
+        },
+        "test3.qasm": {
+          "initial_mean": 165.0,
+          "final_mean": 53.5,
+          "improvement": 0.6757575757575758
+        },
+        "test4.qasm": {
+          "initial_mean": 135.0,
+          "final_mean": 94.0,
+          "improvement": 0.3037037037037037
+        },
+        "test5.qasm": {
+          "initial_mean": 150.0,
+          "final_mean": 46.0,
+          "improvement": 0.6933333333333334
+        },
+        "test6.qasm": {
+          "initial_mean": 135.0,
+          "final_mean": 34.5,
+          "improvement": 0.7444444444444445
+        },
+        "test7.qasm": {
+          "initial_mean": 200.0,
+          "final_mean": 44.0,
+          "improvement": 0.78
+        }
+      }
+    },
+    {
+      "params": {
+        "qpu_size": 3,
+        "population_size": 400,
+        "num_gens": 150,
+        "seed": 42,
+        "temperature": 1.3169877497837597,
+        "mutation_probability": 0.7142902440642258,
+        "mutation_iterations": 200,
+        "verbose": false
+      },
+      "mean_initial": 150.83333333333334,
+      "mean_final": 47.416666666666664,
+      "mean_improvement": 0.6856353591160221,
+      "total_seconds": 836.2465330840059,
+      "per_file": {
+        "test2.qasm": {
+          "initial_mean": 140.0,
+          "final_mean": 25.5,
+          "improvement": 0.8178571428571428
+        },
+        "test3.qasm": {
+          "initial_mean": 160.0,
+          "final_mean": 50.0,
+          "improvement": 0.6875
+        },
+        "test4.qasm": {
+          "initial_mean": 130.0,
+          "final_mean": 94.0,
+          "improvement": 0.27692307692307694
+        },
+        "test5.qasm": {
+          "initial_mean": 150.0,
+          "final_mean": 50.0,
+          "improvement": 0.6666666666666666
+        },
+        "test6.qasm": {
+          "initial_mean": 125.0,
+          "final_mean": 22.5,
+          "improvement": 0.82
+        },
+        "test7.qasm": {
+          "initial_mean": 200.0,
+          "final_mean": 42.5,
+          "improvement": 0.7875
+        }
+      }
+    },
+    {
+      "params": {
+        "qpu_size": 3,
+        "population_size": 300,
+        "num_gens": 150,
+        "seed": 42,
+        "temperature": 0.20358472228587476,
+        "mutation_probability": 0.24675174650646284,
+        "mutation_iterations": 40,
+        "verbose": false
+      },
+      "mean_initial": 151.66666666666666,
+      "mean_final": 52.416666666666664,
+      "mean_improvement": 0.6543956043956044,
+      "total_seconds": 95.00814712500141,
+      "per_file": {
+        "test2.qasm": {
+          "initial_mean": 140.0,
+          "final_mean": 31.5,
+          "improvement": 0.775
+        },
+        "test3.qasm": {
+          "initial_mean": 165.0,
+          "final_mean": 52.0,
+          "improvement": 0.6848484848484848
+        },
+        "test4.qasm": {
+          "initial_mean": 130.0,
+          "final_mean": 95.0,
+          "improvement": 0.2692307692307692
+        },
+        "test5.qasm": {
+          "initial_mean": 150.0,
+          "final_mean": 57.0,
+          "improvement": 0.62
+        },
+        "test6.qasm": {
+          "initial_mean": 125.0,
+          "final_mean": 30.0,
+          "improvement": 0.76
+        },
+        "test7.qasm": {
+          "initial_mean": 200.0,
+          "final_mean": 49.0,
+          "improvement": 0.755
+        }
+      }
+    },
+    {
+      "params": {
+        "qpu_size": 3,
+        "population_size": 50,
+        "num_gens": 50,
+        "seed": 42,
+        "temperature": 0.23947146293060578,
+        "mutation_probability": 0.25489801566530645,
+        "mutation_iterations": 80,
+        "verbose": false
+      },
+      "mean_initial": 167.5,
+      "mean_final": 53.083333333333336,
+      "mean_improvement": 0.6830845771144278,
+      "total_seconds": 6.899448709009448,
+      "per_file": {
+        "test2.qasm": {
+          "initial_mean": 150.0,
+          "final_mean": 32.0,
+          "improvement": 0.7866666666666666
+        },
+        "test3.qasm": {
+          "initial_mean": 175.0,
+          "final_mean": 55.0,
+          "improvement": 0.6857142857142857
+        },
+        "test4.qasm": {
+          "initial_mean": 175.0,
+          "final_mean": 100.5,
+          "improvement": 0.4257142857142857
+        },
+        "test5.qasm": {
+          "initial_mean": 150.0,
+          "final_mean": 52.0,
+          "improvement": 0.6533333333333333
+        },
+        "test6.qasm": {
+          "initial_mean": 150.0,
+          "final_mean": 36.0,
+          "improvement": 0.76
+        },
+        "test7.qasm": {
+          "initial_mean": 205.0,
+          "final_mean": 43.0,
+          "improvement": 0.7902439024390244
+        }
+      }
+    },
+    {
+      "params": {
+        "qpu_size": 3,
+        "population_size": 300,
+        "num_gens": 80,
+        "seed": 42,
+        "temperature": 1.130054831693804,
+        "mutation_probability": 0.5881747365368265,
+        "mutation_iterations": 80,
+        "verbose": false
+      },
+      "mean_initial": 151.66666666666666,
+      "mean_final": 48.916666666666664,
+      "mean_improvement": 0.6774725274725275,
+      "total_seconds": 130.64158362499438,
+      "per_file": {
+        "test2.qasm": {
+          "initial_mean": 140.0,
+          "final_mean": 30.5,
+          "improvement": 0.7821428571428571
+        },
+        "test3.qasm": {
+          "initial_mean": 165.0,
+          "final_mean": 51.5,
+          "improvement": 0.6878787878787879
+        },
+        "test4.qasm": {
+          "initial_mean": 130.0,
+          "final_mean": 96.0,
+          "improvement": 0.26153846153846155
+        },
+        "test5.qasm": {
+          "initial_mean": 150.0,
+          "final_mean": 43.5,
+          "improvement": 0.71
+        },
+        "test6.qasm": {
+          "initial_mean": 125.0,
+          "final_mean": 25.5,
+          "improvement": 0.796
+        },
+        "test7.qasm": {
+          "initial_mean": 200.0,
+          "final_mean": 46.5,
+          "improvement": 0.7675
+        }
+      }
+    },
+    {
+      "params": {
+        "qpu_size": 3,
+        "population_size": 150,
+        "num_gens": 120,
+        "seed": 42,
+        "temperature": 0.7250377883278389,
+        "mutation_probability": 0.8347017657139404,
+        "mutation_iterations": 20,
+        "verbose": false
+      },
+      "mean_initial": 155.0,
+      "mean_final": 51.5,
+      "mean_improvement": 0.667741935483871,
+      "total_seconds": 47.923788375002914,
+      "per_file": {
+        "test2.qasm": {
+          "initial_mean": 145.0,
+          "final_mean": 28.5,
+          "improvement": 0.803448275862069
+        },
+        "test3.qasm": {
+          "initial_mean": 165.0,
+          "final_mean": 49.5,
+          "improvement": 0.7
+        },
+        "test4.qasm": {
+          "initial_mean": 135.0,
+          "final_mean": 96.0,
+          "improvement": 0.28888888888888886
+        },
+        "test5.qasm": {
+          "initial_mean": 150.0,
+          "final_mean": 51.5,
+          "improvement": 0.6566666666666666
+        },
+        "test6.qasm": {
+          "initial_mean": 135.0,
+          "final_mean": 35.5,
+          "improvement": 0.737037037037037
+        },
+        "test7.qasm": {
+          "initial_mean": 200.0,
+          "final_mean": 48.0,
+          "improvement": 0.76
+        }
+      }
+    },
+    {
+      "params": {
+        "qpu_size": 3,
+        "population_size": 200,
+        "num_gens": 80,
+        "seed": 42,
+        "temperature": 0.7749940375991096,
+        "mutation_probability": 0.30889509423948047,
+        "mutation_iterations": 150,
+        "verbose": false
+      },
+      "mean_initial": 154.16666666666666,
+      "mean_final": 50.166666666666664,
+      "mean_improvement": 0.6745945945945946,
+      "total_seconds": 84.04551008400449,
+      "per_file": {
+        "test2.qasm": {
+          "initial_mean": 140.0,
+          "final_mean": 29.5,
+          "improvement": 0.7892857142857143
+        },
+        "test3.qasm": {
+          "initial_mean": 165.0,
+          "final_mean": 48.0,
+          "improvement": 0.7090909090909091
+        },
+        "test4.qasm": {
+          "initial_mean": 135.0,
+          "final_mean": 94.0,
+          "improvement": 0.3037037037037037
+        },
+        "test5.qasm": {
+          "initial_mean": 150.0,
+          "final_mean": 52.5,
+          "improvement": 0.65
+        },
+        "test6.qasm": {
+          "initial_mean": 135.0,
+          "final_mean": 32.5,
+          "improvement": 0.7592592592592593
+        },
+        "test7.qasm": {
+          "initial_mean": 200.0,
+          "final_mean": 44.5,
+          "improvement": 0.7775
+        }
+      }
+    },
+    {
+      "params": {
+        "qpu_size": 3,
+        "population_size": 200,
+        "num_gens": 80,
+        "seed": 42,
+        "temperature": 0.2861092001866605,
+        "mutation_probability": 0.34589154084544693,
+        "mutation_iterations": 150,
+        "verbose": false
+      },
+      "mean_initial": 154.16666666666666,
+      "mean_final": 50.833333333333336,
+      "mean_improvement": 0.6702702702702702,
+      "total_seconds": 92.61571008300234,
+      "per_file": {
+        "test2.qasm": {
+          "initial_mean": 140.0,
+          "final_mean": 28.5,
+          "improvement": 0.7964285714285714
+        },
+        "test3.qasm": {
+          "initial_mean": 165.0,
+          "final_mean": 53.0,
+          "improvement": 0.6787878787878788
+        },
+        "test4.qasm": {
+          "initial_mean": 135.0,
+          "final_mean": 94.0,
+          "improvement": 0.3037037037037037
+        },
+        "test5.qasm": {
+          "initial_mean": 150.0,
+          "final_mean": 47.5,
+          "improvement": 0.6833333333333333
+        },
+        "test6.qasm": {
+          "initial_mean": 135.0,
+          "final_mean": 33.5,
+          "improvement": 0.7518518518518519
+        },
+        "test7.qasm": {
+          "initial_mean": 200.0,
+          "final_mean": 48.5,
+          "improvement": 0.7575
+        }
+      }
+    },
+    {
+      "params": {
+        "qpu_size": 3,
+        "population_size": 400,
+        "num_gens": 150,
+        "seed": 42,
+        "temperature": 0.5262021423845149,
+        "mutation_probability": 0.7021643128218267,
+        "mutation_iterations": 40,
+        "verbose": false
+      },
+      "mean_initial": 150.83333333333334,
+      "mean_final": 48.75,
+      "mean_improvement": 0.6767955801104972,
+      "total_seconds": 226.17636479099747,
+      "per_file": {
+        "test2.qasm": {
+          "initial_mean": 140.0,
+          "final_mean": 26.0,
+          "improvement": 0.8142857142857143
+        },
+        "test3.qasm": {
+          "initial_mean": 160.0,
+          "final_mean": 49.5,
+          "improvement": 0.690625
+        },
+        "test4.qasm": {
+          "initial_mean": 130.0,
+          "final_mean": 95.0,
+          "improvement": 0.2692307692307692
+        },
+        "test5.qasm": {
+          "initial_mean": 150.0,
+          "final_mean": 50.5,
+          "improvement": 0.6633333333333333
+        },
+        "test6.qasm": {
+          "initial_mean": 125.0,
+          "final_mean": 26.5,
+          "improvement": 0.788
+        },
+        "test7.qasm": {
+          "initial_mean": 200.0,
+          "final_mean": 45.0,
+          "improvement": 0.775
+        }
+      }
+    },
+    {
+      "params": {
+        "qpu_size": 3,
+        "population_size": 100,
+        "num_gens": 100,
+        "seed": 42,
+        "temperature": 0.2952916012344062,
+        "mutation_probability": 0.5007167956752698,
+        "mutation_iterations": 60,
+        "verbose": false
+      },
+      "mean_initial": 160.0,
+      "mean_final": 53.25,
+      "mean_improvement": 0.6671875,
+      "total_seconds": 38.0144274589984,
+      "per_file": {
+        "test2.qasm": {
+          "initial_mean": 145.0,
+          "final_mean": 28.0,
+          "improvement": 0.8068965517241379
+        },
+        "test3.qasm": {
+          "initial_mean": 175.0,
+          "final_mean": 61.0,
+          "improvement": 0.6514285714285715
+        },
+        "test4.qasm": {
+          "initial_mean": 150.0,
+          "final_mean": 94.0,
+          "improvement": 0.37333333333333335
+        },
+        "test5.qasm": {
+          "initial_mean": 150.0,
+          "final_mean": 49.5,
+          "improvement": 0.67
+        },
+        "test6.qasm": {
+          "initial_mean": 135.0,
+          "final_mean": 37.0,
+          "improvement": 0.725925925925926
+        },
+        "test7.qasm": {
+          "initial_mean": 205.0,
+          "final_mean": 50.0,
+          "improvement": 0.7560975609756098
+        }
+      }
+    },
+    {
+      "params": {
+        "qpu_size": 3,
+        "population_size": 100,
+        "num_gens": 50,
+        "seed": 42,
+        "temperature": 0.713964596182598,
+        "mutation_probability": 0.7898744056643963,
+        "mutation_iterations": 80,
+        "verbose": false
+      },
+      "mean_initial": 160.0,
+      "mean_final": 51.916666666666664,
+      "mean_improvement": 0.6755208333333333,
+      "total_seconds": 32.241425167012494,
+      "per_file": {
+        "test2.qasm": {
+          "initial_mean": 145.0,
+          "final_mean": 32.5,
+          "improvement": 0.7758620689655172
+        },
+        "test3.qasm": {
+          "initial_mean": 175.0,
+          "final_mean": 52.5,
+          "improvement": 0.7
+        },
+        "test4.qasm": {
+          "initial_mean": 150.0,
+          "final_mean": 94.0,
+          "improvement": 0.37333333333333335
+        },
+        "test5.qasm": {
+          "initial_mean": 150.0,
+          "final_mean": 48.5,
+          "improvement": 0.6766666666666666
+        },
+        "test6.qasm": {
+          "initial_mean": 135.0,
+          "final_mean": 35.5,
+          "improvement": 0.737037037037037
+        },
+        "test7.qasm": {
+          "initial_mean": 205.0,
+          "final_mean": 48.5,
+          "improvement": 0.7634146341463415
+        }
+      }
+    },
+    {
+      "params": {
+        "qpu_size": 3,
+        "population_size": 300,
+        "num_gens": 50,
+        "seed": 42,
+        "temperature": 0.9170047318624657,
+        "mutation_probability": 0.8703795718955181,
+        "mutation_iterations": 80,
+        "verbose": false
+      },
+      "mean_initial": 151.66666666666666,
+      "mean_final": 47.5,
+      "mean_improvement": 0.6868131868131868,
+      "total_seconds": 111.23290550000092,
+      "per_file": {
+        "test2.qasm": {
+          "initial_mean": 140.0,
+          "final_mean": 26.0,
+          "improvement": 0.8142857142857143
+        },
+        "test3.qasm": {
+          "initial_mean": 165.0,
+          "final_mean": 46.0,
+          "improvement": 0.7212121212121212
+        },
+        "test4.qasm": {
+          "initial_mean": 130.0,
+          "final_mean": 94.0,
+          "improvement": 0.27692307692307694
+        },
+        "test5.qasm": {
+          "initial_mean": 150.0,
+          "final_mean": 46.0,
+          "improvement": 0.6933333333333334
+        },
+        "test6.qasm": {
+          "initial_mean": 125.0,
+          "final_mean": 28.0,
+          "improvement": 0.776
+        },
+        "test7.qasm": {
+          "initial_mean": 200.0,
+          "final_mean": 45.0,
+          "improvement": 0.775
+        }
+      }
+    },
+    {
+      "params": {
+        "qpu_size": 3,
+        "population_size": 100,
+        "num_gens": 150,
+        "seed": 42,
+        "temperature": 0.36563866235951614,
+        "mutation_probability": 0.6883584614129639,
+        "mutation_iterations": 60,
+        "verbose": false
+      },
+      "mean_initial": 160.0,
+      "mean_final": 50.833333333333336,
+      "mean_improvement": 0.6822916666666666,
+      "total_seconds": 69.57484379201196,
+      "per_file": {
+        "test2.qasm": {
+          "initial_mean": 145.0,
+          "final_mean": 30.0,
+          "improvement": 0.7931034482758621
+        },
+        "test3.qasm": {
+          "initial_mean": 175.0,
+          "final_mean": 51.0,
+          "improvement": 0.7085714285714285
+        },
+        "test4.qasm": {
+          "initial_mean": 150.0,
+          "final_mean": 94.5,
+          "improvement": 0.37
+        },
+        "test5.qasm": {
+          "initial_mean": 150.0,
+          "final_mean": 48.5,
+          "improvement": 0.6766666666666666
+        },
+        "test6.qasm": {
+          "initial_mean": 135.0,
+          "final_mean": 34.5,
+          "improvement": 0.7444444444444445
+        },
+        "test7.qasm": {
+          "initial_mean": 205.0,
+          "final_mean": 46.5,
+          "improvement": 0.7731707317073171
+        }
+      }
+    },
+    {
+      "params": {
+        "qpu_size": 3,
+        "population_size": 50,
+        "num_gens": 30,
+        "seed": 42,
+        "temperature": 0.4445891586158826,
+        "mutation_probability": 0.33448404557194045,
+        "mutation_iterations": 80,
+        "verbose": false
+      },
+      "mean_initial": 167.5,
+      "mean_final": 54.75,
+      "mean_improvement": 0.673134328358209,
+      "total_seconds": 4.789464041998144,
+      "per_file": {
+        "test2.qasm": {
+          "initial_mean": 150.0,
+          "final_mean": 31.5,
+          "improvement": 0.79
+        },
+        "test3.qasm": {
+          "initial_mean": 175.0,
+          "final_mean": 59.5,
+          "improvement": 0.66
+        },
+        "test4.qasm": {
+          "initial_mean": 175.0,
+          "final_mean": 103.0,
+          "improvement": 0.4114285714285714
+        },
+        "test5.qasm": {
+          "initial_mean": 150.0,
+          "final_mean": 50.0,
+          "improvement": 0.6666666666666666
+        },
+        "test6.qasm": {
+          "initial_mean": 150.0,
+          "final_mean": 37.5,
+          "improvement": 0.75
+        },
+        "test7.qasm": {
+          "initial_mean": 205.0,
+          "final_mean": 47.0,
+          "improvement": 0.7707317073170732
+        }
+      }
+    },
+    {
+      "params": {
+        "qpu_size": 3,
+        "population_size": 150,
+        "num_gens": 120,
+        "seed": 42,
+        "temperature": 0.2388680513706225,
+        "mutation_probability": 0.48167738252727327,
+        "mutation_iterations": 60,
+        "verbose": false
+      },
+      "mean_initial": 155.0,
+      "mean_final": 50.75,
+      "mean_improvement": 0.6725806451612903,
+      "total_seconds": 66.8668580000085,
+      "per_file": {
+        "test2.qasm": {
+          "initial_mean": 145.0,
+          "final_mean": 32.0,
+          "improvement": 0.7793103448275862
+        },
+        "test3.qasm": {
+          "initial_mean": 165.0,
+          "final_mean": 54.5,
+          "improvement": 0.6696969696969697
+        },
+        "test4.qasm": {
+          "initial_mean": 135.0,
+          "final_mean": 94.0,
+          "improvement": 0.3037037037037037
+        },
+        "test5.qasm": {
+          "initial_mean": 150.0,
+          "final_mean": 49.5,
+          "improvement": 0.67
+        },
+        "test6.qasm": {
+          "initial_mean": 135.0,
+          "final_mean": 33.0,
+          "improvement": 0.7555555555555555
+        },
+        "test7.qasm": {
+          "initial_mean": 200.0,
+          "final_mean": 41.5,
+          "improvement": 0.7925
+        }
+      }
+    },
+    {
+      "params": {
+        "qpu_size": 3,
+        "population_size": 100,
+        "num_gens": 80,
+        "seed": 42,
+        "temperature": 1.1755747594498918,
+        "mutation_probability": 0.6060969655613588,
+        "mutation_iterations": 150,
+        "verbose": false
+      },
+      "mean_initial": 160.0,
+      "mean_final": 53.0,
+      "mean_improvement": 0.66875,
+      "total_seconds": 69.90217733300233,
+      "per_file": {
+        "test2.qasm": {
+          "initial_mean": 145.0,
+          "final_mean": 29.5,
+          "improvement": 0.7965517241379311
+        },
+        "test3.qasm": {
+          "initial_mean": 175.0,
+          "final_mean": 56.5,
+          "improvement": 0.6771428571428572
+        },
+        "test4.qasm": {
+          "initial_mean": 150.0,
+          "final_mean": 94.5,
+          "improvement": 0.37
+        },
+        "test5.qasm": {
+          "initial_mean": 150.0,
+          "final_mean": 56.0,
+          "improvement": 0.6266666666666667
+        },
+        "test6.qasm": {
+          "initial_mean": 135.0,
+          "final_mean": 37.0,
+          "improvement": 0.725925925925926
+        },
+        "test7.qasm": {
+          "initial_mean": 205.0,
+          "final_mean": 44.5,
+          "improvement": 0.7829268292682927
+        }
+      }
+    },
+    {
+      "params": {
+        "qpu_size": 3,
+        "population_size": 200,
+        "num_gens": 50,
+        "seed": 42,
+        "temperature": 0.560271673791872,
+        "mutation_probability": 0.39294295261663237,
+        "mutation_iterations": 150,
+        "verbose": false
+      },
+      "mean_initial": 154.16666666666666,
+      "mean_final": 49.666666666666664,
+      "mean_improvement": 0.6778378378378379,
+      "total_seconds": 64.25291004199244,
+      "per_file": {
+        "test2.qasm": {
+          "initial_mean": 140.0,
+          "final_mean": 27.0,
+          "improvement": 0.8071428571428572
+        },
+        "test3.qasm": {
+          "initial_mean": 165.0,
+          "final_mean": 50.5,
+          "improvement": 0.693939393939394
+        },
+        "test4.qasm": {
+          "initial_mean": 135.0,
+          "final_mean": 94.0,
+          "improvement": 0.3037037037037037
+        },
+        "test5.qasm": {
+          "initial_mean": 150.0,
+          "final_mean": 48.0,
+          "improvement": 0.68
+        },
+        "test6.qasm": {
+          "initial_mean": 135.0,
+          "final_mean": 33.0,
+          "improvement": 0.7555555555555555
+        },
+        "test7.qasm": {
+          "initial_mean": 200.0,
+          "final_mean": 45.5,
+          "improvement": 0.7725
+        }
+      }
+    },
+    {
+      "params": {
+        "qpu_size": 3,
+        "population_size": 100,
+        "num_gens": 100,
+        "seed": 42,
+        "temperature": 0.9456583681506344,
+        "mutation_probability": 0.2600818911384146,
+        "mutation_iterations": 150,
+        "verbose": false
+      },
+      "mean_initial": 160.0,
+      "mean_final": 50.916666666666664,
+      "mean_improvement": 0.6817708333333334,
+      "total_seconds": 44.28917491699394,
+      "per_file": {
+        "test2.qasm": {
+          "initial_mean": 145.0,
+          "final_mean": 27.0,
+          "improvement": 0.8137931034482758
+        },
+        "test3.qasm": {
+          "initial_mean": 175.0,
+          "final_mean": 57.5,
+          "improvement": 0.6714285714285714
+        },
+        "test4.qasm": {
+          "initial_mean": 150.0,
+          "final_mean": 95.0,
+          "improvement": 0.36666666666666664
+        },
+        "test5.qasm": {
+          "initial_mean": 150.0,
+          "final_mean": 50.5,
+          "improvement": 0.6633333333333333
+        },
+        "test6.qasm": {
+          "initial_mean": 135.0,
+          "final_mean": 36.5,
+          "improvement": 0.7296296296296296
+        },
+        "test7.qasm": {
+          "initial_mean": 205.0,
+          "final_mean": 39.0,
+          "improvement": 0.8097560975609757
+        }
+      }
+    },
+    {
+      "params": {
+        "qpu_size": 3,
+        "population_size": 50,
+        "num_gens": 80,
+        "seed": 42,
+        "temperature": 0.12674869932815236,
+        "mutation_probability": 0.8522329128730803,
+        "mutation_iterations": 80,
+        "verbose": false
+      },
+      "mean_initial": 167.5,
+      "mean_final": 51.166666666666664,
+      "mean_improvement": 0.6945273631840797,
+      "total_seconds": 24.93884883300052,
+      "per_file": {
+        "test2.qasm": {
+          "initial_mean": 150.0,
+          "final_mean": 31.0,
+          "improvement": 0.7933333333333333
+        },
+        "test3.qasm": {
+          "initial_mean": 175.0,
+          "final_mean": 52.5,
+          "improvement": 0.7
+        },
+        "test4.qasm": {
+          "initial_mean": 175.0,
+          "final_mean": 100.0,
+          "improvement": 0.42857142857142855
+        },
+        "test5.qasm": {
+          "initial_mean": 150.0,
+          "final_mean": 43.5,
+          "improvement": 0.71
+        },
+        "test6.qasm": {
+          "initial_mean": 150.0,
+          "final_mean": 34.0,
+          "improvement": 0.7733333333333333
+        },
+        "test7.qasm": {
+          "initial_mean": 205.0,
+          "final_mean": 46.0,
+          "improvement": 0.775609756097561
+        }
+      }
+    },
+    {
+      "params": {
+        "qpu_size": 3,
+        "population_size": 300,
+        "num_gens": 120,
+        "seed": 42,
+        "temperature": 1.2301224420890362,
+        "mutation_probability": 0.8975365765219809,
+        "mutation_iterations": 20,
+        "verbose": false
+      },
+      "mean_initial": 151.66666666666666,
+      "mean_final": 50.583333333333336,
+      "mean_improvement": 0.6664835164835164,
+      "total_seconds": 103.36394937499426,
+      "per_file": {
+        "test2.qasm": {
+          "initial_mean": 140.0,
+          "final_mean": 27.5,
+          "improvement": 0.8035714285714286
+        },
+        "test3.qasm": {
+          "initial_mean": 165.0,
+          "final_mean": 57.5,
+          "improvement": 0.6515151515151515
+        },
+        "test4.qasm": {
+          "initial_mean": 130.0,
+          "final_mean": 97.0,
+          "improvement": 0.25384615384615383
+        },
+        "test5.qasm": {
+          "initial_mean": 150.0,
+          "final_mean": 47.5,
+          "improvement": 0.6833333333333333
+        },
+        "test6.qasm": {
+          "initial_mean": 125.0,
+          "final_mean": 28.0,
+          "improvement": 0.776
+        },
+        "test7.qasm": {
+          "initial_mean": 200.0,
+          "final_mean": 46.0,
+          "improvement": 0.77
+        }
+      }
+    },
+    {
+      "params": {
+        "qpu_size": 3,
+        "population_size": 300,
+        "num_gens": 120,
+        "seed": 42,
+        "temperature": 0.284801245752097,
+        "mutation_probability": 0.6476447083876926,
+        "mutation_iterations": 20,
+        "verbose": false
+      },
+      "mean_initial": 151.66666666666666,
+      "mean_final": 49.666666666666664,
+      "mean_improvement": 0.6725274725274726,
+      "total_seconds": 85.05084129200259,
+      "per_file": {
+        "test2.qasm": {
+          "initial_mean": 140.0,
+          "final_mean": 30.0,
+          "improvement": 0.7857142857142857
+        },
+        "test3.qasm": {
+          "initial_mean": 165.0,
+          "final_mean": 51.5,
+          "improvement": 0.6878787878787879
+        },
+        "test4.qasm": {
+          "initial_mean": 130.0,
+          "final_mean": 96.0,
+          "improvement": 0.26153846153846155
+        },
+        "test5.qasm": {
+          "initial_mean": 150.0,
+          "final_mean": 47.0,
+          "improvement": 0.6866666666666666
+        },
+        "test6.qasm": {
+          "initial_mean": 125.0,
+          "final_mean": 29.0,
+          "improvement": 0.768
+        },
+        "test7.qasm": {
+          "initial_mean": 200.0,
+          "final_mean": 44.5,
+          "improvement": 0.7775
+        }
+      }
+    },
+    {
+      "params": {
+        "qpu_size": 3,
+        "population_size": 400,
+        "num_gens": 50,
+        "seed": 42,
+        "temperature": 0.22990816261965802,
+        "mutation_probability": 0.5441498201606088,
+        "mutation_iterations": 150,
+        "verbose": false
+      },
+      "mean_initial": 150.83333333333334,
+      "mean_final": 47.333333333333336,
+      "mean_improvement": 0.6861878453038673,
+      "total_seconds": 169.22773312500794,
+      "per_file": {
+        "test2.qasm": {
+          "initial_mean": 140.0,
+          "final_mean": 28.5,
+          "improvement": 0.7964285714285714
+        },
+        "test3.qasm": {
+          "initial_mean": 160.0,
+          "final_mean": 45.5,
+          "improvement": 0.715625
+        },
+        "test4.qasm": {
+          "initial_mean": 130.0,
+          "final_mean": 94.0,
+          "improvement": 0.27692307692307694
+        },
+        "test5.qasm": {
+          "initial_mean": 150.0,
+          "final_mean": 48.0,
+          "improvement": 0.68
+        },
+        "test6.qasm": {
+          "initial_mean": 125.0,
+          "final_mean": 25.5,
+          "improvement": 0.796
+        },
+        "test7.qasm": {
+          "initial_mean": 200.0,
+          "final_mean": 42.5,
+          "improvement": 0.7875
+        }
+      }
+    },
+    {
+      "params": {
+        "qpu_size": 3,
+        "population_size": 100,
+        "num_gens": 80,
+        "seed": 42,
+        "temperature": 0.43849227531959534,
+        "mutation_probability": 0.8502518981228517,
+        "mutation_iterations": 100,
+        "verbose": false
+      },
+      "mean_initial": 160.0,
+      "mean_final": 51.083333333333336,
+      "mean_improvement": 0.6807291666666666,
+      "total_seconds": 64.45680054200056,
+      "per_file": {
+        "test2.qasm": {
+          "initial_mean": 145.0,
+          "final_mean": 27.5,
+          "improvement": 0.8103448275862069
+        },
+        "test3.qasm": {
+          "initial_mean": 175.0,
+          "final_mean": 54.0,
+          "improvement": 0.6914285714285714
+        },
+        "test4.qasm": {
+          "initial_mean": 150.0,
+          "final_mean": 94.0,
+          "improvement": 0.37333333333333335
+        },
+        "test5.qasm": {
+          "initial_mean": 150.0,
+          "final_mean": 50.0,
+          "improvement": 0.6666666666666666
+        },
+        "test6.qasm": {
+          "initial_mean": 135.0,
+          "final_mean": 35.5,
+          "improvement": 0.737037037037037
+        },
+        "test7.qasm": {
+          "initial_mean": 205.0,
+          "final_mean": 45.5,
+          "improvement": 0.7780487804878049
+        }
+      }
+    },
+    {
+      "params": {
+        "qpu_size": 3,
+        "population_size": 50,
+        "num_gens": 150,
+        "seed": 42,
+        "temperature": 1.0659014084323761,
+        "mutation_probability": 0.8651797727255441,
+        "mutation_iterations": 100,
+        "verbose": false
+      },
+      "mean_initial": 167.5,
+      "mean_final": 50.916666666666664,
+      "mean_improvement": 0.6960199004975125,
+      "total_seconds": 55.73181954100437,
+      "per_file": {
+        "test2.qasm": {
+          "initial_mean": 150.0,
+          "final_mean": 29.5,
+          "improvement": 0.8033333333333333
+        },
+        "test3.qasm": {
+          "initial_mean": 175.0,
+          "final_mean": 50.0,
+          "improvement": 0.7142857142857143
+        },
+        "test4.qasm": {
+          "initial_mean": 175.0,
+          "final_mean": 95.0,
+          "improvement": 0.45714285714285713
+        },
+        "test5.qasm": {
+          "initial_mean": 150.0,
+          "final_mean": 52.5,
+          "improvement": 0.65
+        },
+        "test6.qasm": {
+          "initial_mean": 150.0,
+          "final_mean": 31.5,
+          "improvement": 0.79
+        },
+        "test7.qasm": {
+          "initial_mean": 205.0,
+          "final_mean": 47.0,
+          "improvement": 0.7707317073170732
+        }
+      }
+    },
+    {
+      "params": {
+        "qpu_size": 3,
+        "population_size": 300,
+        "num_gens": 150,
+        "seed": 42,
+        "temperature": 0.5930343814428023,
+        "mutation_probability": 0.648773161264541,
+        "mutation_iterations": 80,
+        "verbose": false
+      },
+      "mean_initial": 151.66666666666666,
+      "mean_final": 48.75,
+      "mean_improvement": 0.6785714285714286,
+      "total_seconds": 262.2304029999941,
+      "per_file": {
+        "test2.qasm": {
+          "initial_mean": 140.0,
+          "final_mean": 26.5,
+          "improvement": 0.8107142857142857
+        },
+        "test3.qasm": {
+          "initial_mean": 165.0,
+          "final_mean": 52.5,
+          "improvement": 0.6818181818181818
+        },
+        "test4.qasm": {
+          "initial_mean": 130.0,
+          "final_mean": 94.0,
+          "improvement": 0.27692307692307694
+        },
+        "test5.qasm": {
+          "initial_mean": 150.0,
+          "final_mean": 50.5,
+          "improvement": 0.6633333333333333
+        },
+        "test6.qasm": {
+          "initial_mean": 125.0,
+          "final_mean": 25.5,
+          "improvement": 0.796
+        },
+        "test7.qasm": {
+          "initial_mean": 200.0,
+          "final_mean": 43.5,
+          "improvement": 0.7825
+        }
+      }
+    },
+    {
+      "params": {
+        "qpu_size": 3,
+        "population_size": 150,
+        "num_gens": 30,
+        "seed": 42,
+        "temperature": 0.15080650361762293,
+        "mutation_probability": 0.5261379300389473,
+        "mutation_iterations": 20,
+        "verbose": false
+      },
+      "mean_initial": 155.0,
+      "mean_final": 52.333333333333336,
+      "mean_improvement": 0.6623655913978495,
+      "total_seconds": 9.883738292002818,
+      "per_file": {
+        "test2.qasm": {
+          "initial_mean": 145.0,
+          "final_mean": 32.5,
+          "improvement": 0.7758620689655172
+        },
+        "test3.qasm": {
+          "initial_mean": 165.0,
+          "final_mean": 51.0,
+          "improvement": 0.6909090909090909
+        },
+        "test4.qasm": {
+          "initial_mean": 135.0,
+          "final_mean": 95.0,
+          "improvement": 0.2962962962962963
+        },
+        "test5.qasm": {
+          "initial_mean": 150.0,
+          "final_mean": 50.0,
+          "improvement": 0.6666666666666666
+        },
+        "test6.qasm": {
+          "initial_mean": 135.0,
+          "final_mean": 37.0,
+          "improvement": 0.725925925925926
+        },
+        "test7.qasm": {
+          "initial_mean": 200.0,
+          "final_mean": 48.5,
+          "improvement": 0.7575
+        }
+      }
+    },
+    {
+      "params": {
+        "qpu_size": 3,
+        "population_size": 400,
+        "num_gens": 150,
+        "seed": 42,
+        "temperature": 0.5474218202556873,
+        "mutation_probability": 0.8513400727531883,
+        "mutation_iterations": 150,
+        "verbose": false
+      },
+      "mean_initial": 150.83333333333334,
+      "mean_final": 47.5,
+      "mean_improvement": 0.6850828729281768,
+      "total_seconds": 758.0392352499912,
+      "per_file": {
+        "test2.qasm": {
+          "initial_mean": 140.0,
+          "final_mean": 26.5,
+          "improvement": 0.8107142857142857
+        },
+        "test3.qasm": {
+          "initial_mean": 160.0,
+          "final_mean": 48.5,
+          "improvement": 0.696875
+        },
+        "test4.qasm": {
+          "initial_mean": 130.0,
+          "final_mean": 94.0,
+          "improvement": 0.27692307692307694
+        },
+        "test5.qasm": {
+          "initial_mean": 150.0,
+          "final_mean": 50.0,
+          "improvement": 0.6666666666666666
+        },
+        "test6.qasm": {
+          "initial_mean": 125.0,
+          "final_mean": 23.0,
+          "improvement": 0.816
+        },
+        "test7.qasm": {
+          "initial_mean": 200.0,
+          "final_mean": 43.0,
+          "improvement": 0.785
+        }
+      }
+    },
+    {
+      "params": {
+        "qpu_size": 3,
+        "population_size": 400,
+        "num_gens": 30,
+        "seed": 42,
+        "temperature": 0.16230287197845872,
+        "mutation_probability": 0.3349636674942629,
+        "mutation_iterations": 40,
+        "verbose": false
+      },
+      "mean_initial": 150.83333333333334,
+      "mean_final": 51.75,
+      "mean_improvement": 0.6569060773480663,
+      "total_seconds": 30.147585250000702,
+      "per_file": {
+        "test2.qasm": {
+          "initial_mean": 140.0,
+          "final_mean": 26.5,
+          "improvement": 0.8107142857142857
+        },
+        "test3.qasm": {
+          "initial_mean": 160.0,
+          "final_mean": 54.0,
+          "improvement": 0.6625
+        },
+        "test4.qasm": {
+          "initial_mean": 130.0,
+          "final_mean": 95.5,
+          "improvement": 0.2653846153846154
+        },
+        "test5.qasm": {
+          "initial_mean": 150.0,
+          "final_mean": 51.5,
+          "improvement": 0.6566666666666666
+        },
+        "test6.qasm": {
+          "initial_mean": 125.0,
+          "final_mean": 31.0,
+          "improvement": 0.752
+        },
+        "test7.qasm": {
+          "initial_mean": 200.0,
+          "final_mean": 52.0,
+          "improvement": 0.74
+        }
+      }
+    },
+    {
+      "params": {
+        "qpu_size": 3,
+        "population_size": 100,
+        "num_gens": 150,
+        "seed": 42,
+        "temperature": 0.11240038623770389,
+        "mutation_probability": 0.6428370338637868,
+        "mutation_iterations": 80,
+        "verbose": false
+      },
+      "mean_initial": 160.0,
+      "mean_final": 52.0,
+      "mean_improvement": 0.675,
+      "total_seconds": 81.57894483300333,
+      "per_file": {
+        "test2.qasm": {
+          "initial_mean": 145.0,
+          "final_mean": 28.5,
+          "improvement": 0.803448275862069
+        },
+        "test3.qasm": {
+          "initial_mean": 175.0,
+          "final_mean": 55.0,
+          "improvement": 0.6857142857142857
+        },
+        "test4.qasm": {
+          "initial_mean": 150.0,
+          "final_mean": 94.0,
+          "improvement": 0.37333333333333335
+        },
+        "test5.qasm": {
+          "initial_mean": 150.0,
+          "final_mean": 48.5,
+          "improvement": 0.6766666666666666
+        },
+        "test6.qasm": {
+          "initial_mean": 135.0,
+          "final_mean": 36.5,
+          "improvement": 0.7296296296296296
+        },
+        "test7.qasm": {
+          "initial_mean": 205.0,
+          "final_mean": 49.5,
+          "improvement": 0.7585365853658537
+        }
+      }
+    },
+    {
+      "params": {
+        "qpu_size": 3,
+        "population_size": 200,
+        "num_gens": 150,
+        "seed": 42,
+        "temperature": 0.9251731492510671,
+        "mutation_probability": 0.6712603026243853,
+        "mutation_iterations": 200,
+        "verbose": false
+      },
+      "mean_initial": 154.16666666666666,
+      "mean_final": 50.916666666666664,
+      "mean_improvement": 0.6697297297297298,
+      "total_seconds": 385.0799227499956,
+      "per_file": {
+        "test2.qasm": {
+          "initial_mean": 140.0,
+          "final_mean": 27.0,
+          "improvement": 0.8071428571428572
+        },
+        "test3.qasm": {
+          "initial_mean": 165.0,
+          "final_mean": 55.5,
+          "improvement": 0.6636363636363637
+        },
+        "test4.qasm": {
+          "initial_mean": 135.0,
+          "final_mean": 94.0,
+          "improvement": 0.3037037037037037
+        },
+        "test5.qasm": {
+          "initial_mean": 150.0,
+          "final_mean": 51.0,
+          "improvement": 0.66
+        },
+        "test6.qasm": {
+          "initial_mean": 135.0,
+          "final_mean": 32.5,
+          "improvement": 0.7592592592592593
+        },
+        "test7.qasm": {
+          "initial_mean": 200.0,
+          "final_mean": 45.5,
+          "improvement": 0.7725
+        }
+      }
+    },
+    {
+      "params": {
+        "qpu_size": 3,
+        "population_size": 150,
+        "num_gens": 30,
+        "seed": 42,
+        "temperature": 0.6752187810071538,
+        "mutation_probability": 0.4471512403678266,
+        "mutation_iterations": 150,
+        "verbose": false
+      },
+      "mean_initial": 155.0,
+      "mean_final": 52.0,
+      "mean_improvement": 0.6645161290322581,
+      "total_seconds": 31.2691161249968,
+      "per_file": {
+        "test2.qasm": {
+          "initial_mean": 145.0,
+          "final_mean": 27.0,
+          "improvement": 0.8137931034482758
+        },
+        "test3.qasm": {
+          "initial_mean": 165.0,
+          "final_mean": 50.0,
+          "improvement": 0.696969696969697
+        },
+        "test4.qasm": {
+          "initial_mean": 135.0,
+          "final_mean": 95.0,
+          "improvement": 0.2962962962962963
+        },
+        "test5.qasm": {
+          "initial_mean": 150.0,
+          "final_mean": 55.0,
+          "improvement": 0.6333333333333333
+        },
+        "test6.qasm": {
+          "initial_mean": 135.0,
+          "final_mean": 38.0,
+          "improvement": 0.7185185185185186
+        },
+        "test7.qasm": {
+          "initial_mean": 200.0,
+          "final_mean": 47.0,
+          "improvement": 0.765
+        }
+      }
+    },
+    {
+      "params": {
+        "qpu_size": 3,
+        "population_size": 50,
+        "num_gens": 50,
+        "seed": 42,
+        "temperature": 0.1251444689788069,
+        "mutation_probability": 0.2107405553409141,
+        "mutation_iterations": 60,
+        "verbose": false
+      },
+      "mean_initial": 167.5,
+      "mean_final": 52.583333333333336,
+      "mean_improvement": 0.6860696517412935,
+      "total_seconds": 5.46443658300268,
+      "per_file": {
+        "test2.qasm": {
+          "initial_mean": 150.0,
+          "final_mean": 29.0,
+          "improvement": 0.8066666666666666
+        },
+        "test3.qasm": {
+          "initial_mean": 175.0,
+          "final_mean": 55.0,
+          "improvement": 0.6857142857142857
+        },
+        "test4.qasm": {
+          "initial_mean": 175.0,
+          "final_mean": 98.5,
+          "improvement": 0.43714285714285717
+        },
+        "test5.qasm": {
+          "initial_mean": 150.0,
+          "final_mean": 48.5,
+          "improvement": 0.6766666666666666
+        },
+        "test6.qasm": {
+          "initial_mean": 150.0,
+          "final_mean": 37.0,
+          "improvement": 0.7533333333333333
+        },
+        "test7.qasm": {
+          "initial_mean": 205.0,
+          "final_mean": 47.5,
+          "improvement": 0.7682926829268293
+        }
+      }
+    },
+    {
+      "params": {
+        "qpu_size": 3,
+        "population_size": 400,
+        "num_gens": 150,
+        "seed": 42,
+        "temperature": 1.073152463166664,
+        "mutation_probability": 0.3098460903687644,
+        "mutation_iterations": 40,
+        "verbose": false
+      },
+      "mean_initial": 150.83333333333334,
+      "mean_final": 50.5,
+      "mean_improvement": 0.6651933701657459,
+      "total_seconds": 141.50518724998983,
+      "per_file": {
+        "test2.qasm": {
+          "initial_mean": 140.0,
+          "final_mean": 28.0,
+          "improvement": 0.8
+        },
+        "test3.qasm": {
+          "initial_mean": 160.0,
+          "final_mean": 52.5,
+          "improvement": 0.671875
+        },
+        "test4.qasm": {
+          "initial_mean": 130.0,
+          "final_mean": 95.0,
+          "improvement": 0.2692307692307692
+        },
+        "test5.qasm": {
+          "initial_mean": 150.0,
+          "final_mean": 53.0,
+          "improvement": 0.6466666666666666
+        },
+        "test6.qasm": {
+          "initial_mean": 125.0,
+          "final_mean": 31.0,
+          "improvement": 0.752
+        },
+        "test7.qasm": {
+          "initial_mean": 200.0,
+          "final_mean": 43.5,
+          "improvement": 0.7825
+        }
+      }
+    },
+    {
+      "params": {
+        "qpu_size": 3,
+        "population_size": 50,
+        "num_gens": 30,
+        "seed": 42,
+        "temperature": 0.15536560007528766,
+        "mutation_probability": 0.6497618894161372,
+        "mutation_iterations": 80,
+        "verbose": false
+      },
+      "mean_initial": 167.5,
+      "mean_final": 53.5,
+      "mean_improvement": 0.6805970149253732,
+      "total_seconds": 7.6144704170001205,
+      "per_file": {
+        "test2.qasm": {
+          "initial_mean": 150.0,
+          "final_mean": 31.5,
+          "improvement": 0.79
+        },
+        "test3.qasm": {
+          "initial_mean": 175.0,
+          "final_mean": 53.5,
+          "improvement": 0.6942857142857143
+        },
+        "test4.qasm": {
+          "initial_mean": 175.0,
+          "final_mean": 99.0,
+          "improvement": 0.4342857142857143
+        },
+        "test5.qasm": {
+          "initial_mean": 150.0,
+          "final_mean": 48.5,
+          "improvement": 0.6766666666666666
+        },
+        "test6.qasm": {
+          "initial_mean": 150.0,
+          "final_mean": 39.5,
+          "improvement": 0.7366666666666667
+        },
+        "test7.qasm": {
+          "initial_mean": 205.0,
+          "final_mean": 49.0,
+          "improvement": 0.7609756097560976
+        }
+      }
+    },
+    {
+      "params": {
+        "qpu_size": 3,
+        "population_size": 300,
+        "num_gens": 120,
+        "seed": 42,
+        "temperature": 0.1970774405500896,
+        "mutation_probability": 0.8400367768575852,
+        "mutation_iterations": 20,
+        "verbose": false
+      },
+      "mean_initial": 151.66666666666666,
+      "mean_final": 49.0,
+      "mean_improvement": 0.6769230769230768,
+      "total_seconds": 99.00998324999819,
+      "per_file": {
+        "test2.qasm": {
+          "initial_mean": 140.0,
+          "final_mean": 27.0,
+          "improvement": 0.8071428571428572
+        },
+        "test3.qasm": {
+          "initial_mean": 165.0,
+          "final_mean": 51.0,
+          "improvement": 0.6909090909090909
+        },
+        "test4.qasm": {
+          "initial_mean": 130.0,
+          "final_mean": 95.0,
+          "improvement": 0.2692307692307692
+        },
+        "test5.qasm": {
+          "initial_mean": 150.0,
+          "final_mean": 46.5,
+          "improvement": 0.69
+        },
+        "test6.qasm": {
+          "initial_mean": 125.0,
+          "final_mean": 26.0,
+          "improvement": 0.792
+        },
+        "test7.qasm": {
+          "initial_mean": 200.0,
+          "final_mean": 48.5,
+          "improvement": 0.7575
+        }
+      }
+    },
+    {
+      "params": {
+        "qpu_size": 3,
+        "population_size": 200,
+        "num_gens": 50,
+        "seed": 42,
+        "temperature": 0.6556684311961793,
+        "mutation_probability": 0.4909903796748008,
+        "mutation_iterations": 200,
+        "verbose": false
+      },
+      "mean_initial": 154.16666666666666,
+      "mean_final": 49.5,
+      "mean_improvement": 0.6789189189189189,
+      "total_seconds": 98.22063174999494,
+      "per_file": {
+        "test2.qasm": {
+          "initial_mean": 140.0,
+          "final_mean": 23.0,
+          "improvement": 0.8357142857142857
+        },
+        "test3.qasm": {
+          "initial_mean": 165.0,
+          "final_mean": 49.0,
+          "improvement": 0.703030303030303
+        },
+        "test4.qasm": {
+          "initial_mean": 135.0,
+          "final_mean": 96.0,
+          "improvement": 0.28888888888888886
+        },
+        "test5.qasm": {
+          "initial_mean": 150.0,
+          "final_mean": 46.0,
+          "improvement": 0.6933333333333334
+        },
+        "test6.qasm": {
+          "initial_mean": 135.0,
+          "final_mean": 38.0,
+          "improvement": 0.7185185185185186
+        },
+        "test7.qasm": {
+          "initial_mean": 200.0,
+          "final_mean": 45.0,
+          "improvement": 0.775
+        }
+      }
+    },
+    {
+      "params": {
+        "qpu_size": 3,
+        "population_size": 300,
+        "num_gens": 100,
+        "seed": 42,
+        "temperature": 0.3695732835501204,
+        "mutation_probability": 0.3359222378709385,
+        "mutation_iterations": 20,
+        "verbose": false
+      },
+      "mean_initial": 151.66666666666666,
+      "mean_final": 50.333333333333336,
+      "mean_improvement": 0.6681318681318681,
+      "total_seconds": 55.45565533300396,
+      "per_file": {
+        "test2.qasm": {
+          "initial_mean": 140.0,
+          "final_mean": 29.0,
+          "improvement": 0.7928571428571428
+        },
+        "test3.qasm": {
+          "initial_mean": 165.0,
+          "final_mean": 51.0,
+          "improvement": 0.6909090909090909
+        },
+        "test4.qasm": {
+          "initial_mean": 130.0,
+          "final_mean": 95.0,
+          "improvement": 0.2692307692307692
+        },
+        "test5.qasm": {
+          "initial_mean": 150.0,
+          "final_mean": 51.0,
+          "improvement": 0.66
+        },
+        "test6.qasm": {
+          "initial_mean": 125.0,
+          "final_mean": 28.5,
+          "improvement": 0.772
+        },
+        "test7.qasm": {
+          "initial_mean": 200.0,
+          "final_mean": 47.5,
+          "improvement": 0.7625
+        }
+      }
+    },
+    {
+      "params": {
+        "qpu_size": 3,
+        "population_size": 50,
+        "num_gens": 150,
+        "seed": 42,
+        "temperature": 0.6217467637476987,
+        "mutation_probability": 0.45263324522313064,
+        "mutation_iterations": 100,
+        "verbose": false
+      },
+      "mean_initial": 167.5,
+      "mean_final": 51.416666666666664,
+      "mean_improvement": 0.6930348258706468,
+      "total_seconds": 33.90738654200686,
+      "per_file": {
+        "test2.qasm": {
+          "initial_mean": 150.0,
+          "final_mean": 32.0,
+          "improvement": 0.7866666666666666
+        },
+        "test3.qasm": {
+          "initial_mean": 175.0,
+          "final_mean": 52.0,
+          "improvement": 0.7028571428571428
+        },
+        "test4.qasm": {
+          "initial_mean": 175.0,
+          "final_mean": 99.0,
+          "improvement": 0.4342857142857143
+        },
+        "test5.qasm": {
+          "initial_mean": 150.0,
+          "final_mean": 45.0,
+          "improvement": 0.7
+        },
+        "test6.qasm": {
+          "initial_mean": 150.0,
+          "final_mean": 34.5,
+          "improvement": 0.77
+        },
+        "test7.qasm": {
+          "initial_mean": 205.0,
+          "final_mean": 46.0,
+          "improvement": 0.775609756097561
+        }
+      }
+    },
+    {
+      "params": {
+        "qpu_size": 3,
+        "population_size": 200,
+        "num_gens": 30,
+        "seed": 42,
+        "temperature": 0.10004266464274326,
+        "mutation_probability": 0.7660095578087125,
+        "mutation_iterations": 40,
+        "verbose": false
+      },
+      "mean_initial": 154.16666666666666,
+      "mean_final": 50.916666666666664,
+      "mean_improvement": 0.6697297297297298,
+      "total_seconds": 23.76277287499397,
+      "per_file": {
+        "test2.qasm": {
+          "initial_mean": 140.0,
+          "final_mean": 26.5,
+          "improvement": 0.8107142857142857
+        },
+        "test3.qasm": {
+          "initial_mean": 165.0,
+          "final_mean": 56.5,
+          "improvement": 0.6575757575757576
+        },
+        "test4.qasm": {
+          "initial_mean": 135.0,
+          "final_mean": 96.5,
+          "improvement": 0.2851851851851852
+        },
+        "test5.qasm": {
+          "initial_mean": 150.0,
+          "final_mean": 49.0,
+          "improvement": 0.6733333333333333
+        },
+        "test6.qasm": {
+          "initial_mean": 135.0,
+          "final_mean": 34.5,
+          "improvement": 0.7444444444444445
+        },
+        "test7.qasm": {
+          "initial_mean": 200.0,
+          "final_mean": 42.5,
+          "improvement": 0.7875
+        }
+      }
+    },
+    {
+      "params": {
+        "qpu_size": 3,
+        "population_size": 50,
+        "num_gens": 120,
+        "seed": 42,
+        "temperature": 0.4573533873065025,
+        "mutation_probability": 0.2805460839837352,
+        "mutation_iterations": 150,
+        "verbose": false
+      },
+      "mean_initial": 167.5,
+      "mean_final": 52.5,
+      "mean_improvement": 0.6865671641791045,
+      "total_seconds": 25.83068058300705,
+      "per_file": {
+        "test2.qasm": {
+          "initial_mean": 150.0,
+          "final_mean": 33.5,
+          "improvement": 0.7766666666666666
+        },
+        "test3.qasm": {
+          "initial_mean": 175.0,
+          "final_mean": 50.5,
+          "improvement": 0.7114285714285714
+        },
+        "test4.qasm": {
+          "initial_mean": 175.0,
+          "final_mean": 97.0,
+          "improvement": 0.44571428571428573
+        },
+        "test5.qasm": {
+          "initial_mean": 150.0,
+          "final_mean": 53.5,
+          "improvement": 0.6433333333333333
+        },
+        "test6.qasm": {
+          "initial_mean": 150.0,
+          "final_mean": 34.5,
+          "improvement": 0.77
+        },
+        "test7.qasm": {
+          "initial_mean": 205.0,
+          "final_mean": 46.0,
+          "improvement": 0.775609756097561
+        }
+      }
+    },
+    {
+      "params": {
+        "qpu_size": 3,
+        "population_size": 200,
+        "num_gens": 80,
+        "seed": 42,
+        "temperature": 0.4231269873095082,
+        "mutation_probability": 0.8416141264210975,
+        "mutation_iterations": 40,
+        "verbose": false
+      },
+      "mean_initial": 154.16666666666666,
+      "mean_final": 51.75,
+      "mean_improvement": 0.6643243243243243,
+      "total_seconds": 66.8376012499939,
+      "per_file": {
+        "test2.qasm": {
+          "initial_mean": 140.0,
+          "final_mean": 28.0,
+          "improvement": 0.8
+        },
+        "test3.qasm": {
+          "initial_mean": 165.0,
+          "final_mean": 55.5,
+          "improvement": 0.6636363636363637
+        },
+        "test4.qasm": {
+          "initial_mean": 135.0,
+          "final_mean": 96.0,
+          "improvement": 0.28888888888888886
+        },
+        "test5.qasm": {
+          "initial_mean": 150.0,
+          "final_mean": 47.0,
+          "improvement": 0.6866666666666666
+        },
+        "test6.qasm": {
+          "initial_mean": 135.0,
+          "final_mean": 36.0,
+          "improvement": 0.7333333333333333
+        },
+        "test7.qasm": {
+          "initial_mean": 200.0,
+          "final_mean": 48.0,
+          "improvement": 0.76
+        }
+      }
+    },
+    {
+      "params": {
+        "qpu_size": 3,
+        "population_size": 400,
+        "num_gens": 30,
+        "seed": 42,
+        "temperature": 1.0339851508900741,
+        "mutation_probability": 0.4900253572283146,
+        "mutation_iterations": 80,
+        "verbose": false
+      },
+      "mean_initial": 150.83333333333334,
+      "mean_final": 48.083333333333336,
+      "mean_improvement": 0.6812154696132596,
+      "total_seconds": 57.99134141700051,
+      "per_file": {
+        "test2.qasm": {
+          "initial_mean": 140.0,
+          "final_mean": 24.0,
+          "improvement": 0.8285714285714286
+        },
+        "test3.qasm": {
+          "initial_mean": 160.0,
+          "final_mean": 50.5,
+          "improvement": 0.684375
+        },
+        "test4.qasm": {
+          "initial_mean": 130.0,
+          "final_mean": 96.0,
+          "improvement": 0.26153846153846155
+        },
+        "test5.qasm": {
+          "initial_mean": 150.0,
+          "final_mean": 46.5,
+          "improvement": 0.69
+        },
+        "test6.qasm": {
+          "initial_mean": 125.0,
+          "final_mean": 27.0,
+          "improvement": 0.784
+        },
+        "test7.qasm": {
+          "initial_mean": 200.0,
+          "final_mean": 44.5,
+          "improvement": 0.7775
+        }
+      }
+    },
+    {
+      "params": {
+        "qpu_size": 3,
+        "population_size": 150,
+        "num_gens": 30,
+        "seed": 42,
+        "temperature": 0.8333303731660291,
+        "mutation_probability": 0.425689207829709,
+        "mutation_iterations": 200,
+        "verbose": false
+      },
+      "mean_initial": 155.0,
+      "mean_final": 50.833333333333336,
+      "mean_improvement": 0.6720430107526881,
+      "total_seconds": 38.21024649999163,
+      "per_file": {
+        "test2.qasm": {
+          "initial_mean": 145.0,
+          "final_mean": 25.0,
+          "improvement": 0.8275862068965517
+        },
+        "test3.qasm": {
+          "initial_mean": 165.0,
+          "final_mean": 50.5,
+          "improvement": 0.693939393939394
+        },
+        "test4.qasm": {
+          "initial_mean": 135.0,
+          "final_mean": 96.0,
+          "improvement": 0.28888888888888886
+        },
+        "test5.qasm": {
+          "initial_mean": 150.0,
+          "final_mean": 48.5,
+          "improvement": 0.6766666666666666
+        },
+        "test6.qasm": {
+          "initial_mean": 135.0,
+          "final_mean": 34.0,
+          "improvement": 0.7481481481481481
+        },
+        "test7.qasm": {
+          "initial_mean": 200.0,
+          "final_mean": 51.0,
+          "improvement": 0.745
+        }
+      }
+    }
+  ]
+}

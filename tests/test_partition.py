@@ -7,7 +7,8 @@ import argparse
 from pathlib import Path
 from typing import Sequence
 
-from playground import build_graph_from_dag, load_qasm3_file, partition_graph
+from qiskit.converters import circuit_to_dag
+from src import build_graph_from_dag, load_qasm3_file, partition_graph
 
 DEFAULT_PARAMS = {
     "qpu_size": 3,
@@ -28,7 +29,8 @@ def discover_test_files(root: Path) -> Sequence[Path]:
 
 def evaluate_circuit(qasm_path: Path, params: dict) -> tuple[float, float]:
     """Compute initial and final best costs for the given QASM circuit."""
-    dag = load_qasm3_file(qasm_path)
+    qc = load_qasm3_file(qasm_path)
+    dag = circuit_to_dag(qc)
     graph, depth = build_graph_from_dag(dag)
     _, final_cost, _, initial_best_cost = partition_graph(
         graph,
@@ -44,8 +46,8 @@ def main() -> None:
     parser.add_argument(
         "--root",
         type=Path,
-        default=Path(__file__).resolve().parent,
-        help="Directory containing test*.qasm files (defaults to script directory).",
+        default=Path(__file__).resolve().parent / "circuits",
+        help="Directory containing test*.qasm files (defaults to tests/circuits directory).",
     )
     parser.add_argument(
         "--seed",

@@ -6,8 +6,10 @@ Evaluates parameter samples over all test*.qasm files (and multiple seeds),
 aggregates normalized improvement, and reports the best configurations.
 
 Usage examples:
-  python3 tune_params.py --trials 40 --seeds 42 1337 --root .
-  python3 tune_params.py --trials 100 --root . --qpu-size 3 --time-budget 300
+    python3 tune_params.py --trials 40 --seeds 42 1337
+    python3 tune_params.py --trials 100 --qpu-size 3 --time-budget 300
+    # Override input location if needed:
+    python3 tune_params.py --root ./some/dir --trials 50
 """
 from __future__ import annotations
 
@@ -120,7 +122,8 @@ def sample_params(rng: random.Random, base_qpu_size: int) -> Params:
 
 def main() -> None:
     parser = argparse.ArgumentParser(description=__doc__)
-    parser.add_argument("--root", type=Path, default=Path("."))
+    default_root = Path(__file__).resolve().parents[1] / "tests" / "circuits"
+    parser.add_argument("--root", type=Path, default=default_root)
     parser.add_argument("--trials", type=int, default=30)
     parser.add_argument("--seeds", type=int, nargs="*", default=[101, 202])
     parser.add_argument("--qpu-size", type=int, default=3)

@@ -5,9 +5,14 @@ from __future__ import annotations
 
 import argparse
 from pathlib import Path
+import sys
 from typing import Sequence
 
 from qiskit.converters import circuit_to_dag
+
+# Ensure repository root is on sys.path so `src` can be imported
+sys.path.append(str(Path(__file__).resolve().parents[1]))
+
 from src import build_graph_from_dag, load_qasm3_file, partition_graph
 
 DEFAULT_PARAMS = {

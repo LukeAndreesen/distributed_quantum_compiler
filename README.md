@@ -36,7 +36,9 @@ compiled_circuit, network_map = compile(
 Test the compiler on all example circuits:
 
 ```bash
-python tests/test_partition.py
+python -m tests.test_partition
+# or
+PYTHONPATH=. python tests/test_partition.py
 ```
 
 ## Tune Parameters
@@ -45,4 +47,6 @@ Run hyperparameter optimization:
 
 ```bash
 python tune_params.py --trials 50
+# By default, uses QASM files in `tests/circuits`
+# To point elsewhere: python tune_params.py --root path/to/qasm_dir --trials 50
 ```

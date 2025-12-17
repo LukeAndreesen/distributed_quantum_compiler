@@ -1,6 +1,6 @@
 # Distributed Quantum Compiler
 
-A quantum circuit compiler that optimizes qubit placement across multiple QPUs. Based on [*Generalised Circuit Partitioning for Distributed Quantum Computing*][https://arxiv.org/pdf/2408.01424v2] by Burt, Chen, Leung.
+A quantum circuit compiler that optimizes qubit placement across multiple QPUs. Based on [*Generalised Circuit Partitioning for Distributed Quantum Computing*](https://arxiv.org/pdf/2408.01424v2) by Burt, Chen, Leung.
 
 ## Quick Start
 
